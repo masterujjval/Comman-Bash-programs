@@ -11,3 +11,8 @@ else
     clear
 fi
 
+echo "Enter the statement you want to print: "
+read n
+clear
+
+figlet $n
